@@ -1,0 +1,64 @@
+/* Use Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at top left, #ffe29f, #ffa99f, #ba75ff);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+
+.container {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 16px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.main-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.main-title span {
+  color: #6a5acd;
+  font-style: italic;
+}
+
+input[type="file"] {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px dashed #aaa;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+#coverImage {
+  width: 100%;
+  margin-top: 25px;
+  border-radius: 12px;
+}
+
+audio {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}

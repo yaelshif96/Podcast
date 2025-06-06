@@ -1,0 +1,27 @@
+<div class="container">
+  <h1 class="main-title">Naomi & Yael <span>- Work/Life and in between</span></h1>
+  
+  <!-- Editable short description -->
+  <div id="podcastDescription" contenteditable="true" 
+       style="margin-top: 12px; font-size: 1.1rem; color: #555; font-style: italic; outline: none; cursor: text;">
+מתי אנחנו מסכימות לשחרר, למה יעל תמיד בוכה וכמה עולה לעזעזל עוגה באסקית בימינו
+  <div>
+בשיחה עם מיקרופון פתוח מדברות על המערכות יחסים המשמעותיות בחיינו, איך זה להיות אחות קטנה, איך ילדים מגיעים לעולם ולמה הבאה בתור הולכת להיות בת שתתלבש בשמלות וורודות
+   </div>    play יאללה 
+    <div>
+  
+  <!-- Audio upload input -->
+  <input type="file" id="audioUpload" accept="audio/mp3" style="margin-top: 30px;" />
+  
+  <!-- Podcast player without cover image -->
+  <div id="podcastPlayer" class="hidden" style="margin-top: 20px;">
+   <audio controls id="audioPlayer"></audio>
+  </div>
+
+  <!-- Image upload input -->
+  <input type="file" id="imageUpload" accept="image/*" style="margin-top: 30px;" />
+
+  <!-- Preview of uploaded image -->
+  <img id="uploadedImagePreview" class="hidden" alt="Uploaded preview" 
+       style="margin-top: 20px; max-width: 100%; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);" />
+</div>
